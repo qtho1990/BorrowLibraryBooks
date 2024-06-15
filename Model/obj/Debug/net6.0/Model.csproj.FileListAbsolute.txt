@@ -1,0 +1,11 @@
+E:\Job\Demo\DemoInterview\BorrowLibraryBooks\Model\bin\Debug\net6.0\Model.deps.json
+E:\Job\Demo\DemoInterview\BorrowLibraryBooks\Model\bin\Debug\net6.0\Model.dll
+E:\Job\Demo\DemoInterview\BorrowLibraryBooks\Model\bin\Debug\net6.0\Model.pdb
+E:\Job\Demo\DemoInterview\BorrowLibraryBooks\Model\obj\Debug\net6.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+E:\Job\Demo\DemoInterview\BorrowLibraryBooks\Model\obj\Debug\net6.0\Model.AssemblyInfoInputs.cache
+E:\Job\Demo\DemoInterview\BorrowLibraryBooks\Model\obj\Debug\net6.0\Model.AssemblyInfo.cs
+E:\Job\Demo\DemoInterview\BorrowLibraryBooks\Model\obj\Debug\net6.0\Model.csproj.CoreCompileInputs.cache
+E:\Job\Demo\DemoInterview\BorrowLibraryBooks\Model\obj\Debug\net6.0\Model.dll
+E:\Job\Demo\DemoInterview\BorrowLibraryBooks\Model\obj\Debug\net6.0\refint\Model.dll
+E:\Job\Demo\DemoInterview\BorrowLibraryBooks\Model\obj\Debug\net6.0\Model.pdb
+E:\Job\Demo\DemoInterview\BorrowLibraryBooks\Model\obj\Debug\net6.0\ref\Model.dll
