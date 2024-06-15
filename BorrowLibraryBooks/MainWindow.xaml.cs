@@ -26,8 +26,6 @@ namespace BorrowLibraryBooks
             _transactionManagement = transactionManagement;
             _transactionManagement.LogoutEvent += _transactionManagement_LogoutEvent;
             _transactionManagement.Closed += _transactionManagement_Closed;
-            user_name_tb.Text = "thodang";
-            pass_tb.Text = "tho123456";
         }
 
         private void _transactionManagement_Closed(object? sender, EventArgs e)
