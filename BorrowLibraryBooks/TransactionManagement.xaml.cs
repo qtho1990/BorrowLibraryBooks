@@ -27,6 +27,7 @@ namespace BorrowLibraryBooks
         private readonly IAuthManagement _authManagement;
         private readonly ITransactionService _transactionService;
         public event EventHandler LogoutEvent;
+        public event EventHandler CloseEvent;
         public List<TransactionTransfer> transactions;
         private int CurrentCredit = 0;
         public TransactionManagement(IAuthManagement authManagement, ITransactionService transactionService)
@@ -128,6 +129,11 @@ namespace BorrowLibraryBooks
             {
                 MessageBox.Show(ex.ToString(), "Error");
             }
+        }
+
+        private void Window_Closed(object sender, EventArgs e)
+        {
+            CloseEvent?.Invoke(this, EventArgs.Empty);
         }
     }
 }

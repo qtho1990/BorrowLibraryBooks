@@ -25,8 +25,14 @@ namespace BorrowLibraryBooks
             _authManagement = authManagement;
             _transactionManagement = transactionManagement;
             _transactionManagement.LogoutEvent += _transactionManagement_LogoutEvent;
+            _transactionManagement.Closed += _transactionManagement_Closed;
             user_name_tb.Text = "thodang";
             pass_tb.Text = "tho123456";
+        }
+
+        private void _transactionManagement_Closed(object? sender, EventArgs e)
+        {
+            this.Close();
         }
 
         private void _transactionManagement_LogoutEvent(object? sender, EventArgs e)
@@ -51,6 +57,11 @@ namespace BorrowLibraryBooks
             _transactionManagement.Show();
             this.Hide();
             //this.Close();
+        }
+
+        private void Window_Closed(object sender, EventArgs e)
+        {
+            _transactionManagement.Close();
         }
     }
 }

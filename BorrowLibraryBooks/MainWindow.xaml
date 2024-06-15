@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:BorrowLibraryBooks"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        Closed="Window_Closed"
+        >
     <Grid>
         <Button Content="Login" HorizontalAlignment="Center" Margin="0,257,0,0" VerticalAlignment="Top" Click="Button_Click" Width="88"/>
         <TextBox HorizontalAlignment="Left" Margin="380,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Name="user_name_tb"/>

@@ -501,3 +501,10 @@ BorrowLibraryBooks/obj/Debug/net6.0-windows/Page/Login.g.i.cs
 BorrowLibraryBooks/obj/Debug/net6.0-windows/Page/LoginPage.g.i.cs
 BorrowLibraryBooks/obj/Debug/net6.0-windows/Pages/LoginPage.g.i.cs
 BorrowLibraryBooks/obj/Debug/net6.0-windows/Pages/TransactionPage.g.i.cs
+BorrowLibraryBooks/bin/
+BorrowLibraryBooks/obj/Debug/
+Model/obj/Debug/
+WpfLibrary/bin/Debug/
+WpfLibrary/obj/Debug/
+Model/bin/Debug/
+.vs/BorrowLibraryBooks/FileContentIndex/
